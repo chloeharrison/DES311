@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+html,body{
+margin:0;
+padding:0;
+height:100%;
+width:100%;
+        
+}
+
+/*, text*/
+h1{
+   font-family:'Yantramanav',sans-serif;
+    font-size:600%;
+    font-weight: 100;
+    color:#3A6168;
+    line-height:70%;
+
+}
+
+
+h3{font-family:'Yantramanav',sans-serif;
+    font-size:200%;
+    font-weight: 100;
+    color:#E1EFE9;
+    line-height:70%;
+text-align: center;}
+
+/*, Landing page */
+
+.intro{
+height: 100%;
+width:100%;
+margin:auto;
+background:url( ../images/bg.png) no-repeat 50% 50%;
+display:table;
+top:0;
+background-size:cover;
+
+}
+
+.inner{
+display:table-cell;
+vertical-align: middle;
+ width:100%;
+    max-width:none; 
+}
+
+.content{
+  max-width:600px ;  
+  margin:0 auto;  
+   text-align: center;
+    padding-bottom: 28%;
+    
+ }
+.content h1{
+   font-family:'Yantramanav',sans-serif;
+    font-size:600%;
+    font-weight: 100;
+    color:#E1EFE9;
+    line-height:70%;
+      
+}
+.gamecontent{
+  max-width:600px ;  
+  margin:0 auto;  
+   text-align: center;
+    padding-bottom: 28%;
+    
+ }
+.gamecontent h1{
+   font-family:'Yantramanav',sans-serif;
+    font-size:600%;
+    font-weight: 100;
+    color:#3A6168;
+    line-height:70%;
+      
+}
+
+.btn{
+  font-family: 'Montserrat',sans-serif;
+    font-size:135%;
+    font-weight:400;
+    color:#b0b6c2;
+    text-transform:uppercase;
+    text-decoration: none;
+    border:solid #b0b6c2;
+    padding:10px 20px;
+    border-radius:9px ;
+    transition:all 0.5s;
+    background-color: transparent;
+    
+}
+.btn:hover{color: #CBDFD6;
+    border:solid #CBDFD6;
+    }
+
+#score{font-family:'Yantramanav',sans-serif;
+    font-size:150% ;}
+
+
+/*,game*/
+
+.gameintro{
+height: 100%;
+width:100%;
+margin:auto;
+background:url() no-repeat 50% 50%;
+display:table;
+top:0;
+background-size:cover;
+
+}
+
+.gamebtn{
+  font-family: 'Montserrat',sans-serif;
+    font-size:135%;
+    font-weight:400;
+    color:#3A6168;
+    text-transform:uppercase;
+    text-decoration: none;
+    border:solid #3A6168;
+    padding:10px 20px;
+    border-radius:9px ;
+    transition:all 0.5s;
+    background-color: transparent;
+    
+}
+.gamebtn:hover{color: #CBDFD6;
+    border:solid #CBDFD6;
+    }
+
+/*, footer */
+
+.footer{
+  height: 100%;
+width:100%;
+margin:auto;
+background:url( ../images/footerbg.png) no-repeat 50% 50%;
+background-size:cover;
+display:table;
+top:0;
+
+
+
+
+    
+    
+    
+    
+}
+
+
+/*--- Media Queries --*/
+@media screen and (max-width: 900px) {
+.content{
+  padding-bottom: 30%;
+    
+ }
+    .content h1{
+        font-size:450%;
+        
+    }
+.gamecontent{
+  padding-bottom: 450%;
+    
+ }
+    .gamecontent h1{
+        font-size:450%;
+        
+    }
+    .btn{
+      font-size:110%;
+          padding:9px 17px;
+        
+    }
+	 .gamebtn{
+      font-size:110%;
+          padding:9px 17px;
+        
+    }
+	
+	
+	
+h3{
+        font-size:150%;
+        
+    }
+
+ img{width:500px;
+ height:400px;
+	 
+	 
+ }  
+        
+    }
+}
+}
+@media screen and (max-width: 768px) {.content{
+  padding-bottom: 35%;
+    
+ }
+    .content h1{
+        font-size:300%;
+          padding-bottom: 35%;
+   ;
+    }
+	.gamecontent{
+  padding-bottom: 35%;
+    
+ }
+    .gamecontent h1{
+        font-size:300%;
+          padding-bottom: 35%;
+   ;
+    }
+
+    .btn{
+      font-size:110%;
+          padding:10px 15px;
+        
+    }
+	 .gamebtn{
+      font-size:110%;
+          padding:10px 15px;
+        
+    }
+	
+	
+    	h3{
+        font-size:110%;
+        
+    }
+
+   img{width:450px;
+ height:350px;
+	 
+	 
+ }   
+        
+   
+
+
+}
+@media screen and (max-width: 480px) {
+	.content{
+  padding-bottom: 30%;
+    
+ }
+    .content h1{
+        font-size:200%;
+        
+    }
+	.gamecontent{
+  padding-bottom: 30%;
+    
+ }
+    .gamecontent h1{
+        font-size:200%;
+        
+    }
+    .btn{
+      font-size:100%;
+          padding:6px 14px;
+        
+    }
+	
+	 .gamebtn{
+      font-size:100%;
+          padding:6px 14px;
+        
+    }
+
+	
+	
+    h3{
+        font-size:100%;
+        
+    }
+
+   img{width:350px;
+ height:250px;
+
+	 
+ }  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
